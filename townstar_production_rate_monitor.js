@@ -1,4 +1,3 @@
-(function() {
     'use strict';
     const trackedItems = [
         {item: 'Wheat', count: 0, first: 0, oneMin: 0, oneHour: 0},
@@ -58,4 +57,4 @@
             return origReturn ? new TrackUnitDeliverOutputTask(origReturn.unit,origReturn.targetObject,t) : null
         }
     }
-})();
+
